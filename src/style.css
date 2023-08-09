@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header--title {
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.first-input {
+  /* margin-top: 50px;
+    margin-right: 50px;
+  margin-left: 10px; */
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.second-input {
+  /* margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 200px; */
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+.preButton {
+  width: 100%;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  /* grid-column: 1 / -1; */
+  text-align: center;
+  /* margin-left: 90px;
+  margin-right: 110px;
+  margin-top: 70px; */
+
+  padding: 20px;
+  color: white;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.form {
+  /* display: grid;
+  grid-template: 40px 40px / 1fr 1fr; */
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main {
+  padding: 36px;
+}
+
+.preImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.meme--img {
+  margin-top: 20px;
+  max-width: 50%;
+}
+
+.imgText1 {
+  top: 0;
+  display: flex;
+  color: white;
+  position: absolute;
+  font-size: 200%;
+}
+
+.imgText2 {
+  bottom: 0%;
+  color: white;
+  position: absolute;
+  font-size: 200%;
+}
